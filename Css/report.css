@@ -1,0 +1,11 @@
+#table{
+    border: 1px dotted;
+    width: 60vw;
+    margin:20px auto;
+}
+#table th,td{
+    text-align: center;
+    border: 1px solid;
+    width: 60vw;
+    margin:20px auto;
+}
