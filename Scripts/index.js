@@ -26,3 +26,9 @@ if(email && password){
     
 
 }
+
+document.querySelector(".login_button").addEventListener("click", handleLogin);
+
+function handleLogin(){
+  window.location.href=("../Html/login.html")
+}
