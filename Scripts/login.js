@@ -1,4 +1,4 @@
-let getData = JSON.parse(localStorage.getItem("user_data"));
+let getData = JSON.parse(localStorage.getItem("user_data")) || [];
 
 document.querySelector("form").addEventListener("submit", handleLogin);
 let id=""

@@ -8,16 +8,23 @@
     <title>Login Page</title>
   </head>
   <body>
+    
+    
     <div class="container">
       <div class="screen">
         <div class="screen__content">
+          <div id="text_initial">
+            <h1>Login</h2>
+            <h4>To enjoy our cool website ✌️</h4>
+          </div>
           <form class="login">
             <div class="login__field">
               <input
-                type="text"
+                type="email"
                 class="login__input"
                 id="email"
                 placeholder="Email"
+                required
               />
             </div>
             <div class="login__field">
@@ -26,6 +33,7 @@
                 class="login__input"
                 id="password"
                 placeholder="Password"
+                required
               />
             </div>
             <input class="button login__submit" type="submit" value="Log In" />

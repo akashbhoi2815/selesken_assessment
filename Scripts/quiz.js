@@ -144,6 +144,7 @@ function loadDOM() {
       const { category } = quest;
       return `
               <div id=${quest.id} class="question_div"  >
+              <p>${quest.questionNo}</p>
               <p>${quest.title}</p>
                 <div><input type="radio" name="${quest.questionNo}" value="${category.option1}">A. ${category.option1}</input></div> 
                 <div><input type="radio" name="${quest.questionNo}" value="${category.option2}">B. ${category.option2}</input></div> 
@@ -192,7 +193,6 @@ function handleCount() {
       "You have answered all questions, Please click submit to submit the Quiz.";
     document.getElementById("last_message").append(text);
   }
-  
 }
 
 function skipQue() {
